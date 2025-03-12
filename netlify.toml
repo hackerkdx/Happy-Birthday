@@ -6,5 +6,5 @@
 [template.environment]
   NAME = "enter Name of the receiver"
   PIC = "enter web url of the receiver's image"
-  SCROLL_MSG = "test"
-  
+  SCROLL_MSG = "https://telegra.ph/bday-03-12"
+  HBD_MSG = "nice mutlu senelerr"
