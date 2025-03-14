@@ -8,3 +8,4 @@
   PIC = "enter web url of the receiver's image"
   SCROLL_MSG = "uzun doğum mesajı (link)"
   HBD_MSG = "kısa doğum günü mesajı"
+ OPEN_DATE = "YYYY-AA-GG"
