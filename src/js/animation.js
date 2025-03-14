@@ -63,7 +63,7 @@ const transition = (currentScene) => {
 */
 
 export const animate = function () {
-  CTAtext.innerHTML = "Click the Light Bulb.";
+  CTAtext.innerHTML = "Ampul'e tıkla.";
 
   readMsg(blackText);
 
@@ -78,7 +78,7 @@ export const animate = function () {
 
       light.play();
       transition(darkroom);
-      CTAtext.innerHTML = "Click the Door";
+      CTAtext.innerHTML = "Kapıya tıkla";
       setTimeout(function () {
         button.classList.add("door-out");
         button.classList.remove("switch");
@@ -109,7 +109,7 @@ export const animate = function () {
 
       door.play();
       transition(hallway);
-      CTAtext.innerHTML = "Click the Gift";
+      CTAtext.innerHTML = "Hediyeye tıkla";
       setTimeout(function () {
         button.classList.add("gift");
         button.classList.remove("door-in");
